@@ -1,0 +1,1160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family:sans-serif;
+    color: #fff;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    z-index: 99; 
+}
+.logo{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lg-pic{
+    height: 30px;
+    width: 100px;
+    background-image: url(img/ubisoft-logo-gray-background-tycgg9vw0ofxpr6c.png);
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+   
+}
+.tag{
+    height: 50px;
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.tag a{
+    text-decoration: none;
+    margin: 0px 25px;
+    cursor: pointer;
+}
+.nav-last{
+    height: 50px;
+    width: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;   
+}
+.nav-last .nv1{
+    height: 50px;
+    width: 50%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.nav-last span{
+    margin-right: 8px;
+    cursor: pointer;
+}
+.nav-last .nv2 {
+    height: 50px;
+    width: 50%;
+    font-size: 25px;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    cursor: pointer;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.img{
+     height: 90px;
+     width: 250px;
+}
+.im-coner{
+   height: 85px;
+   width: 100%; 
+  } 
+/* page1*/
+
+.page1{
+    margin-top: 50px;
+    height: 800px;
+    width: 100%;
+    background-image: url(img/ubi-homescreen-store_promo-bargain_sale-bg-desktop-v3.avif);
+    background-size: cover; 
+ 
+}
+.ele{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    flex-direction: column;
+
+}
+.ele h1{
+    font-size: 56px;
+    margin-top: 8%;    
+}
+.ele p{
+    font-size: 26px;
+    margin-top: 15px;
+    width: 1183px;
+    text-align: center;
+}
+.bt{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+}
+
+.button .btn{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 60px;
+    border-radius: 25px;
+    background-color: #D80388;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+   
+   
+    
+}
+.btn::before{
+       content:'';
+       height: 100%;
+       width: 100%;      
+       position: absolute;
+       background-color: aliceblue;
+       top: 0;
+       left:0;
+       scale:0 ;
+       border-radius: 25px;
+       transition: 0.1s all ease-out;
+                    
+}
+
+.btn:hover::before{
+  
+       scale: 1;
+       content:'shop now';
+       color:#D80388;
+       text-transform: uppercase;
+       font-size: 15px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid #D80388;
+       cursor: pointer;
+}
+
+/* page2 */
+
+
+.page2{
+    margin-top: 50px;
+    height: 800px;
+    width: 100%;
+    background-image: url(img/car.avif);
+    background-size: cover;  
+}
+
+.ele1{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    flex-direction: column;
+
+}
+.ele1 h1{
+    font-size: 56px;
+    margin-top: 8%;
+ 
+}
+
+.ele1 p{
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 900;
+    width: 1183px;
+}
+ .bt1{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1 .btn1{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgb(247, 151, 7);
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+   
+    
+}
+.btn1::before{
+       content:'';
+       height: 100%;
+       width: 100%;      
+       position: absolute;
+       background-color: aliceblue;
+       top: 0;
+       left:0;
+       scale:0 ;
+       border-radius: 25px;
+       transition: 0.1s all ease-out;
+                    
+}
+
+.btn1:hover::before{
+  
+       scale: 1;
+       content:"Add to wishlist";
+       color: rgb(247, 151, 7);
+       text-transform: uppercase;
+       font-size: 15px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid  rgb(247, 151, 7);
+       cursor: pointer;
+}
+/* / btn2 */ 
+
+ .button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button2 .btn2{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgb(247, 151, 7);
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+   
+   
+    
+}
+.btn2::before{
+       content:'';
+       height: 100%;
+       width: 100%;      
+       position: absolute;
+       background-color: aliceblue;
+       top: 0;
+       left:0;
+       scale:0 ;
+       border-radius: 25px;
+       transition: 0.1s all ease-out;
+                    
+}
+
+.btn2:hover::before{
+  
+       scale: 1;
+       content:'visit now';
+       color: rgb(247, 151, 7);
+       text-transform: uppercase;
+       font-size: 15px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid rgb(247, 151, 7);
+       cursor: pointer;
+}  
+
+/* page3 */
+
+
+.page3{
+    margin-top: 50px;
+    height: 800px;
+    width: 100%;
+    background-image: url(img/assasin.avif);
+    background-size:cover; 
+}
+.ele2{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    flex-direction: column;
+
+}
+.ele2 h1{
+    font-size: 56px;
+    margin-top: 8%;
+ 
+}
+.ele2 p{
+    width: 1183px;
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 900;
+}
+ .bt2{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+}
+
+.button3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button3 .btn3{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color:black;
+    border:none;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+   
+    
+}
+.btn3::before{
+       content:'';
+       height: 100%;
+       width: 100%;      
+       position: absolute;
+       background-color: aliceblue;
+       top: 0;
+       left:0;
+       scale:0 ;
+       border-radius: 25px;
+       transition: 0.1s all ease-out;
+                    
+}
+
+.btn3:hover::before{
+  
+       scale: 1;
+       content:"watch trailer";
+       font-weight: 800;
+       color:black;
+       text-transform: uppercase;
+       font-size: 15px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid black;
+       cursor: pointer;
+}
+/* / btn2 */ 
+
+ .button4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button4 .btn4{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color:black;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+   
+   
+    
+}
+.btn4::before{
+       content:'';
+       height: 100%;
+       width: 100%;          
+       position: absolute;
+       background-color: aliceblue;
+       top: 0;
+       left:0;
+       scale:0 ;
+       border-radius: 25px;
+       transition: 0.1s all ease-out;
+                    
+}
+
+.btn4:hover::before{
+  
+       scale: 1;
+       content:'visit website';
+       color: black;;
+       text-transform: uppercase;
+       font-size: 15px;
+       font-weight: 800;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid #0000;
+       cursor: pointer;
+}
+
+
+/* page4 */
+
+.page4{
+    margin-top: 50px;
+    height: 800px;
+    width: 100%;
+    background-image: url(img/pop.avif);
+    background-size:cover;
+    position: relative; 
+ 
+
+}
+.page4::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+.ele3{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    flex-direction: column;
+
+}
+.ele3 h1{
+    font-size: 56px;
+    margin-top: 8%;
+    z-index: 1;
+    color: rgba(255, 255, 255, 1);
+
+ 
+}
+.ele3 p{
+    width: 1183px;
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 900;
+    z-index: 1;
+    color: rgba(255, 255, 255, 1);
+}
+ .bt3{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+}
+
+.button5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button5 .btn5{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color:black;
+    border:none;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+   
+    
+}
+.btn5::before{
+       content:'';
+       height: 100%;
+       width: 100%;      
+       position: absolute;
+       background-color: aliceblue;
+       top: 0;
+       left:0;
+       scale:0 ;
+       border-radius: 25px;
+       transition: 0.1s all ease-out;
+                    
+}
+
+.btn5:hover::before{
+  
+       scale: 1;
+       content:"watch trailer";
+       font-weight: 800;
+       color:black;
+       text-transform: uppercase;
+       font-size: 15px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid black;
+       cursor: pointer;
+}
+/* / btn2 */ 
+
+ .button6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button6 .btn6{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color:black;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+   
+   
+    
+}
+.btn6::before{
+       content:'';
+       height: 100%;
+       width: 100%;          
+       position: absolute;
+       background-color: aliceblue;
+       top: 0;
+       left:0;
+       scale:0 ;
+       border-radius: 25px;
+       transition: 0.1s all ease-out;
+                    
+}
+
+.btn6:hover::before{
+  
+       scale: 1;
+       content:'visit website';
+       color: black;;
+       text-transform: uppercase;
+       font-size: 15px;
+       font-weight: 800;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid #0000;
+       cursor: pointer;
+}
+/* page5 */
+
+.page5{
+    margin-top: 50px;
+    height: 800px;
+    width: 100%;
+    background-image: url(img/skull-and-bones-s3-ubislide.avif);
+    background-size:cover;
+    position: relative; 
+ 
+
+}
+.ele4{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    flex-direction: column;
+
+}
+.ele4 h1{
+    font-size: 56px;
+    margin-top: 8%;
+    z-index: 1;
+    color: rgba(255, 255, 255, 1);
+
+ 
+}
+.ele4 p{
+    width: 1183px;
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+    z-index: 1;
+    color: rgba(255, 255, 255, 1);
+}
+ .bt4{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+}
+
+.button7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button7 .btn7{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color:rgb(202, 24, 0);
+    border:none;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+   
+    
+}
+.btn7::before{
+       content:'';
+       height: 100%;
+       width: 100%;      
+       position: absolute;
+       background-color: aliceblue;
+       top: 0;
+       left:0;
+       scale:0 ;
+       border-radius: 25px;
+       transition: 0.1s all ease-out;
+                    
+}
+
+.btn7:hover::before{
+  
+       scale: 1;
+       content:"visit website";
+       font-weight: 800;
+       color:rgb(202, 24, 0);
+       text-transform: uppercase;
+       font-size: 15px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid rgb(202, 24, 0);
+       cursor: pointer;
+}
+/* / btn2 */ 
+
+ .button8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button8 .btn8{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color:rgb(202, 24, 0);
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+   
+   
+    
+}
+.btn8::before{
+       content:'';
+       height: 100%;
+       width: 100%;          
+       position: absolute;
+       background-color: aliceblue;
+       top: 0;
+       left:0;
+       scale:0 ;
+       border-radius: 25px;
+       transition: 0.1s all ease-out;
+                    
+}
+
+.btn8:hover::before{
+  
+       scale: 1;
+       content:'watch trailer';
+       color: rgb(202, 24, 0);;
+       text-transform: uppercase;
+       font-size: 15px;
+       font-weight: 800;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid rgb(202, 24, 0);
+       cursor: pointer;
+}
+
+
+/* start next home */
+
+.lower-home{
+    height: 380px;
+    width: 100%;
+    background-image: url(img/nextHome.avif);
+    background-size:cover ;
+    background-position: center;
+    
+}
+.nxt-logo{
+    height: 67px;
+    width: 230px;
+}
+
+.con{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+  
+}
+
+.con h1{
+    font-weight: 700;
+    font-size: 32px;
+    margin: 10px 30px 5px;
+}
+.con h5{
+    font-size: 20px;
+    margin: 20px 10px;
+    font-weight: 500;
+}
+.con button{
+    height: 54px;
+    width: 167px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: #D80388;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.Explore-games{
+    height: 700px;
+    width: 100%;
+    background-color: #e1dada;
+    
+}
+.heading {
+  height: 135px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading h2{
+    font-size: 40px;
+    color: black;
+    padding: 50px 0px 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.game-list{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;   
+    overflow: hidden;
+}
+.game{
+       height: 362px;
+       width: 210px;
+       display: flex;
+       flex-direction: column;
+       scale: 1;
+}
+.game:hover{
+    scale: 1.02;
+    cursor: pointer;
+    color: #000;
+}
+.gm-img{
+    height: 275px;
+    width: 210px;
+}
+.game h3{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+    font-weight: 700;   
+}
+.ic{
+    margin-top: 10px;
+    font-size: 20px;
+    gap: 3px;
+}
+
+.Ex-btn{
+    width: 100%;
+    height: calc(100% - 585px);
+   position: relative;
+}
+.e-b{
+    position: absolute;
+    top: -50%;
+    left:40%;
+}
+.Ex-btn button{
+    height: 54px;
+    width: 250px;
+    font-size: 15px;
+    margin-top: 60px;
+    border-radius: 25px;
+    background-color: #D80388;
+    font-weight: 800;
+    color: #fff;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+}
+.Ex-btn button::before{
+    content:'';
+    height: 100%;
+    width: 100%;      
+    position: absolute;
+    background-color: aliceblue;
+    top: 0;
+    left:0;
+    scale:0 ;
+    border-radius: 25px;
+    transition: 0.1s all ease-out;
+
+}
+.Ex-btn button:hover::before{
+    scale: 1;
+    content:'view all games';
+    color:#D80388;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D80388;
+    cursor: pointer;
+}
+
+.news{
+    height: 1000px;
+    width: 100%;
+    background-color:#fff ;
+}
+.f-line{
+    height: 100px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-weight: 100;
+
+}
+.n-tag{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    
+}
+.n-tag span{
+    color: #D80388;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left:30px;   
+}
+.n-tag span:hover{
+    cursor: pointer;
+    color: #000;
+    text-decoration: underline;
+
+}
+.g-collact{
+    height: 750px;
+    width: 100%;
+    display: flex;
+}
+.gc-left{
+    height: 100%;
+    width: 50%;
+   
+}
+
+.g-c1{
+    height: 516px;
+    width: 736px;
+    margin-left: 20px;  
+}
+.c1-img{
+    height: 396px;
+    width: 704px;
+    background-image: url(img/g-c1.avif);
+    background-position: cover;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.g-c1 p{
+    font-size: 14px;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+}
+.g-c1 h2{
+    color: #2c2c2c;
+}
+
+.g-c2{
+    height: 234px;
+    width: 736px;
+    margin-left: 20px;
+    display: flex;
+   
+}
+.c2-left{
+    height: 100%;
+    width: 50%;
+    background-image: url(img/pop1.webp);
+    background-position: cover;
+    background-repeat: no-repeat;
+    
+ 
+}
+.c2-right{
+    width: 50%;
+    height: 100%;
+    color: #2c2c2c;
+}
+.c2-right p{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.c2-right h2{
+    color: #2c2c2c;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.gc-right{
+    height: 100%;
+    width: 50%;
+   
+}
+
+
+ .right-img{
+
+    height: 100%;
+    width: 50%;
+    background-image: url(img/Unlock\ 50+.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-color: #000;
+}
+
+.right-img1{
+     margin-top: 100px;
+    height: 100%;
+    width: 50%;
+    background-image: url(img/unlock2.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-color: #000;
+}
+.c2-right1{
+    margin-top: 100px;
+    width: 50%;
+    height: 100%;
+    color: #2c2c2c;
+}
+
+.c2-right1 p{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.c2-right1 h2{
+    color: #2c2c2c;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.news-btn-div{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button .news-btn{
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: #D80388;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+   
+   
+    
+}
+.news-btn::before{
+       content:'';
+       height: 100%;
+       width: 100%;      
+       position: absolute;
+       background-color: aliceblue;
+       top: 0;
+       left:0;
+       scale:0 ;
+       border-radius: 25px;
+       transition: 0.1s all ease-out;
+                    
+}
+
+.news-btn:hover::before{
+  
+       scale: 1;
+       content:'All news';
+       color:#D80388;
+       text-transform: uppercase;
+       font-size: 15px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid #D80388;
+       cursor: pointer;
+}
+.inside{
+    height: 500px;
+    width: 100%;
+    background-color: red;
+}
+.in-ub{
+    height: 100px;
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    padding: 50px 0px 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
